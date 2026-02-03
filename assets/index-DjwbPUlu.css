@@ -122,6 +122,21 @@
     --tw-content: ".index.DjwbPUlu.css"
 }
 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    overflow-x: hidden;
+}
+html,body{
+    overflow-y: scroll;
+}
 html,
 :host {
     line-height: 1.5;
@@ -137,7 +152,8 @@ html,
 
 body {
     margin: 0;
-    line-height: inherit
+    line-height: inherit;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
@@ -149,6 +165,10 @@ hr {
 abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted
+}
+
+#contact{
+    scroll-margin-top:45px;
 }
 
 h1,
@@ -323,7 +343,7 @@ textarea::-moz-placeholder {
 input::placeholder,
 textarea::placeholder {
     opacity: 1;
-    color: #9ca3af
+    color: #ffffff
 }
 
 button,
